@@ -33,3 +33,9 @@
 #________________________________________________________________
 #________________________________________________________________
 
+from functools import reduce
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+mapped = list(map(lambda x:x**2, numbers))
+filtered = list(filter(lambda x:x%3==0, mapped))
+total = reduce(lambda a,b:a+b, filtered)
