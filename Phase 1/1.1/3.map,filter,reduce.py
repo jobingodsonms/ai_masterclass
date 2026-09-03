@@ -7,6 +7,7 @@
 
 #________________________________________________________________
 
+1. Map: Applies a function to every item in an iterable and returns a new iterable with the results.
 #map() applies the same function to every element in an iterable.
 #map(function, iterable)
 #numbers = [1, 2, 3, 4, 5]
@@ -15,6 +16,7 @@
 
 #________________________________________________________________
 
+2. Filter: Filters items from an iterable based on a condition.
 #filter() removes items that don't satisfy a condition.
 #filter(function, iterable)
 #numbers = [1, 2, 3, 4, 5]
@@ -23,6 +25,7 @@
 
 #________________________________________________________________
 
+3. Reduce: Reduces the iterable to a single value.
 #reduce() combines all elements into one final value.
 #reduce(function, iterable)
 #from functools import reduce
