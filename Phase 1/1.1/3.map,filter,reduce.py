@@ -40,6 +40,16 @@ Syntax: reduce(function, iterable)
 #________________________________________________________________
 #________________________________________________________________
 
+Assignment:
+1. Use map() to create a new list where every number is squared.
+2. Use filter() to keep only numbers divisible by 3.
+3. Use reduce() to calculate the sum of all numbers.
+4. Chain them together:
+5. Square every number.
+6. Keep only the even squares.
+7. Find the sum of the remaining numbers.
+
+
 from functools import reduce
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
