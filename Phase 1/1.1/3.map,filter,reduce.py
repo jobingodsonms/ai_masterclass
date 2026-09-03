@@ -9,16 +9,19 @@
 
 1. Map: Applies a function to every item in an iterable and returns a new iterable with the results.
 #map() applies the same function to every element in an iterable.
-#map(function, iterable)
+Syntax: map(function, iterable)
 #numbers = [1, 2, 3, 4, 5]
 #squares = list(map(lambda x: x**2, numbers))
 #print(squares)
 
 #________________________________________________________________
 
-2. Filter: Filters items from an iterable based on a condition.
+2. Filter: Filters items from numpy import single
+
+from an iterable based on a condition.
 #filter() removes items that don't satisfy a condition.
-#filter(function, iterable)
+Syntax: filter(function, iterable)
+
 #numbers = [1, 2, 3, 4, 5]
 #even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 #print(even_numbers)
@@ -27,7 +30,8 @@
 
 3. Reduce: Reduces the iterable to a single value.
 #reduce() combines all elements into one final value.
-#reduce(function, iterable)
+Syntax: reduce(function, iterable)
+
 #from functools import reduce
 #numbers = [2,3,4]
 #product = reduce(lambda a, b: a * b, numbers)
