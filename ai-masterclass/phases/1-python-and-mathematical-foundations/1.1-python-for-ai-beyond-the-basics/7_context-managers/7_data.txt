@@ -1,3 +1,0 @@
-Python is easy to learn.
-Context managers handle resources.
-The with statement automatically closes the file.
