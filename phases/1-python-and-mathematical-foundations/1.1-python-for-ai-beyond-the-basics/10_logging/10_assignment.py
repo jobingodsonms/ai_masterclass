@@ -92,13 +92,11 @@ else:
 
 configure_logging(level=logging.INFO)
 
-
 def load_data():
 	logging.info("Loading data")
 	data = [1, 2, 3]
 	logging.info("Data loaded")
 	return data
-
 
 def preprocess(data):
 	logging.info("Preprocessing started")
@@ -106,17 +104,13 @@ def preprocess(data):
 	logging.info("Preprocessing completed")
 	return processed_data
 
-
 def predict(data):
 	logging.info("Prediction started")
 	predictions = [value + 1 for value in data]
 	logging.info("Prediction completed")
 	return predictions
 
-
 data = load_data()
 processed_data = preprocess(data)
 predictions = predict(processed_data)
 print(f"Predictions: {predictions}")
-
-
