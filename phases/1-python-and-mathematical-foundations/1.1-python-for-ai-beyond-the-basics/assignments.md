@@ -103,4 +103,6 @@ with FileProcessor("data.txt") as file:
 - Add brief comments documenting your approach and any edge cases handled.
 - Respect the rule: no external AI/Google — the goal is to practice and learn through your own coding and the Python docs.
 
+## project is done at the end of 1.1
+
 Good luck — paste here if you want quick review or unit tests for any solution.
