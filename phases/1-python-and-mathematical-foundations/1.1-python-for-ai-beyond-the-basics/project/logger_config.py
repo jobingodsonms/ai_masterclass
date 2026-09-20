@@ -3,7 +3,6 @@
 import logging
 from pathlib import Path
 
-
 def configure_logging(filename="processing.log"):
 	"""Configure file logging and return the application logger."""
 	log_path = Path(filename)

@@ -14,7 +14,6 @@ DATA_FILE = BASE_DIR / "data" / "messages.txt"
 OUTPUT_FILE = BASE_DIR / "output" / "results.txt"
 LOG_FILE = BASE_DIR / "processing.log"
 
-
 def format_results(statistics, analyzed_messages):
 	"""Build the human-readable processing report."""
 	report_lines = [
@@ -36,7 +35,6 @@ def format_results(statistics, analyzed_messages):
 		for message, sentiment in analyzed_messages[:5]
 	)
 	return "\n".join(report_lines) + "\n"
-
 
 def main():
 	"""Run each stage of the text-processing pipeline."""
@@ -60,7 +58,6 @@ def main():
 	except (OSError, UnicodeError) as error:
 		logger.error("Processing failed: %s", error)
 		return 1
-
 
 if __name__ == "__main__":
 	raise SystemExit(main())

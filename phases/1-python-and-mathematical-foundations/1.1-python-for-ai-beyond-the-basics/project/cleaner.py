@@ -1,10 +1,8 @@
 """Clean and normalize text messages."""
 
-
 def clean_text(text):
 	"""Return lowercase text with repeated whitespace normalized."""
 	return " ".join(text.lower().split())
-
 
 def clean_messages(messages):
 	"""Return cleaned messages while excluding empty entries."""
