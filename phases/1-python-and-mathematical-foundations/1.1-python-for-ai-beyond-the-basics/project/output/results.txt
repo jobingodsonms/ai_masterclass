@@ -1,0 +1,17 @@
+TEXT PROCESSING RESULTS
+=======================
+
+Total messages: 40
+
+Positive: 8
+Negative: 5
+Neutral: 27
+
+Sample Analysis
+---------------
+
+"i love this product" -> positive
+"this product is amazing" -> positive
+"this is terrible" -> negative
+"i hate this service" -> negative
+"python is great" -> positive
