@@ -4,7 +4,6 @@ from functools import wraps
 from pathlib import Path
 from time import perf_counter
 
-
 def timer(function):
 	"""Report how long a function takes and return its result."""
 	@wraps(function)
@@ -16,7 +15,6 @@ def timer(function):
 		return result
 
 	return timed_function
-
 
 def save_results(content, filename):
 	"""Write result content to a UTF-8 text file."""
