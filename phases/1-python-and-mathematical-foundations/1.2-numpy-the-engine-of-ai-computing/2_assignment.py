@@ -1,5 +1,5 @@
 """
-NumPy Accessing Data - Assignment Solution (numpy_indexing.py)
+NumPy Accessing Data - Assignment Solution 
 
 Mental Model:
   1D: array[index]
