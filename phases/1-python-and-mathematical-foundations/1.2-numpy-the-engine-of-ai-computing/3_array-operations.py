@@ -9,7 +9,6 @@ Structure:
 5. Mini Practice (all mini practice with solutions)
 6. Assignments (solutions included + Challenge)
 
-This file follows the learning template and provides runnable examples.
 """
 
 import numpy as np
