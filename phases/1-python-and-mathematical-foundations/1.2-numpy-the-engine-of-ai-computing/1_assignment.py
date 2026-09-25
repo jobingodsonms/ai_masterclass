@@ -1,5 +1,5 @@
 """
-NumPy Basics - Assignment Solution 
+NumPy Basics - Assignment Solution
 
 Goal:
 Understand and practice NumPy fundamentals:
