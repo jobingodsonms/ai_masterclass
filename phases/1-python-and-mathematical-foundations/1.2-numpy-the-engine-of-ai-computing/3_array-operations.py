@@ -8,7 +8,6 @@ Structure:
 4. Example (runnable)
 5. Mini Practice (all mini practice with solutions)
 6. Assignments (solutions included + Challenge)
-
 """
 
 import numpy as np
