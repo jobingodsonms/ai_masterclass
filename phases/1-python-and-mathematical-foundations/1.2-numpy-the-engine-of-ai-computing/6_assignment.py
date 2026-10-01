@@ -137,7 +137,7 @@ print()
 
 
 # ==============================================================================
-# ⭐ Final AI Challenge — Neural Network Forward Pass
+#  Final AI Challenge — Neural Network Forward Pass
 # ==============================================================================
 # Input vector x (3 features: study_hours=5, attendance=80, previous_score=70)
 # Output neurons = 2, Weights matrix shape = (3, 2)
