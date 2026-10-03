@@ -152,12 +152,12 @@ print()
 
 
 # ==============================================================================
-# 🤖 AI/Data Challenge — E-commerce Reasoning Strategy
+# AI/Data Challenge — E-commerce Reasoning Strategy
 # ==============================================================================
 # For each column in an e-commerce dataset (customer_id, price, quantity, discount, city),
 # decide what strategy you would use if values are missing.
 
-print("--- 🤖 AI/Data Challenge: E-commerce Reasoning Strategy ---")
+print("--- AI/Data Challenge: E-commerce Reasoning Strategy ---")
 ecommerce_strategy = """
 E-Commerce Missing Value Strategy Breakdown:
 
